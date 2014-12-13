@@ -21,7 +21,7 @@ public class MainTurnGUI {
 	 */
 	public static void main(String[] args) {
 		try {
-			MainTurnGUI window = new MainTurnGUI();
+			MainTurnGUI window = new MainTurnGUI();	/* remark */
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();

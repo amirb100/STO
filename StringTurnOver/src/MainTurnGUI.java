@@ -62,7 +62,9 @@ public class MainTurnGUI {
 		InText = new Text(shell, SWT.BORDER | SWT.WRAP | SWT.V_SCROLL | SWT.RIGHT | SWT.MULTI);
 		InText.setBounds(404, 91, 196, 196);
 		
-		Button TurnText = new Button(shell, SWT.NONE);
+		Button TurnText = new Button(shell, SWT.BORDER | SWT.CENTER);
+		TurnText.setBackground(SWTResourceManager.getColor(0, 100, 0));
+		TurnText.setForeground(SWTResourceManager.getColor(173, 255, 47));
 		TurnText.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				String out = new String();
